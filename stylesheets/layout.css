@@ -1,0 +1,722 @@
+* {
+    box-sizing: border-box;
+}
+html{
+    background-color: #F5E1F4;
+}
+body{
+    position: relative;
+    width: 1440px;
+    margin: 0 auto;
+    font-family: 'Prata';
+    color: #082808;
+    }
+.section-1{
+    position: relative;
+    height: 783px;
+    background-image: url('../images/background-cover.svg');
+    background-repeat: no-repeat;
+}
+.tagline{
+    position: absolute;
+    top: 65px;
+    left: 1089px;
+    font-size: 42.91px;
+    line-height: 90%;
+    white-space: pre-wrap;
+    color: #F5E1F4;
+}
+.section-2{
+    position: relative;
+    height: 791px;
+    padding: 77px 18px 133px 25px;
+    background-color: #082808;
+}
+.ticket{
+    position: relative;
+    height: 581px;
+    background-color: #D43438;
+    border-radius: 50px;
+    color: #082808;
+}
+
+/* вырезы: круги цвета секции, заходящие на край билета */
+.notch{
+    position: absolute;
+    left: 277px;
+    width: 91px;
+    height: 79px;
+    border-radius: 50%;
+    background-color: #082808;
+}
+.notch-top{
+    top: -40px;
+}
+.notch-bottom{
+    bottom: -40px;
+}
+
+
+/* вертикальная полоска */
+.ticket-line{
+    position: absolute;
+    top: 76px;
+    left: 310px;
+    width: 25px;
+    height: 405px;
+    border-radius: 100px;
+    background-color: #082808;
+}
+
+/* штрихкод */
+.barcode{
+    position: absolute;
+    top: 413px;
+    left: 1112px;
+    height: 143px;
+    width: 238px;
+    display: flex;
+    gap: 6px;
+}
+.bar{
+    height: 100%;
+    background-color: #082808;
+}
+.w16{ width: 16px; }
+.w10{ width: 10px; }
+.w5{ width: 5px; }
+.w20{ width: 20px; }
+.w9{ width: 9px; }
+.w30{ width: 30px; }
+
+.ticket-name{
+    position: absolute;
+    top: 553.28px;
+    left: 47.91px;
+    margin: 0;
+    font-size: 133.47px;
+    line-height: 181px;
+    white-space: nowrap;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+}
+.ticket-number{
+    position: absolute;
+    top: 545.06px;
+    left: 213.34px;
+    margin: 0;
+    font-size: 44.48px;
+    line-height: 60px;
+    white-space: nowrap;
+    transform-origin: 0 0;
+    transform: rotate(-90deg);
+    
+}
+.ticket-title{
+    position: absolute;
+    top: 42px;
+    left: 415px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 88.29px;
+    line-height: 90%;
+}
+.ticket-info{
+    position: absolute;
+    top: 343px;
+    left: 854px;
+    margin: 0;
+    font-size: 33.48px;
+    line-height: 159%;
+    text-decoration: underline;
+    text-underline-offset: 25%;
+}
+.ticket-glyph{
+    position: absolute;
+    top: 223px;
+    left: 1201px;
+    width: 148.49px;
+}
+.dots{
+    position: absolute;
+    top: 703px;
+    left: 0;
+    width: 1440px;
+}
+
+/* линия из точек */
+.ticket-dots{
+    position: absolute;
+    top: 73.5px;
+    left: 220px;
+    width: 14px;
+    
+}
+.section-3{
+    position: relative;
+    height: 411px;
+    overflow: hidden;
+}
+.act-1{
+    position: absolute;
+    top: -43px;
+    right: 214px;
+    font-size: 550px;
+    font-weight: 400;
+    line-height: 745px;
+    word-spacing: 0px;
+    white-space: nowrap;
+}
+.curve{
+    position: absolute;
+    top: -14.6px;
+    left: -3px;
+    width: 705px;
+}
+.curtain{
+    position: absolute;
+    top: 35px;
+    left: 36px;
+    width: 473px;
+    height: 107px;
+    font-size: 118.82px;
+    font-weight: 400;
+    line-height: 107px;
+    white-space: nowrap;
+}
+.history{
+    position: absolute;
+    top: 178px;
+    left: 707px;
+    font-size: 30px;
+}
+.detail-number{
+    position: absolute;
+    top: 236px;
+    left: 1020px;
+    width: 69px;
+    height: 78px;
+    font-size: 87.1px;
+    line-height: 78px;
+    white-space: nowrap;
+}
+.detail-line{
+    position: absolute;
+    top: 309px;
+    left: 904px;
+    width: 205.01px;
+    border-top: 1px solid #082808;
+}
+.detail{
+    position: absolute;
+    top: 311px;
+    left: 1000px;
+    font-size: 20.57px;
+    line-height: 90%;
+    white-space: nowrap;
+}
+.section-4{
+    position: relative;
+    height: 1567px;
+    overflow: hidden;
+}
+.year{
+    position: absolute;
+    top: 108px;
+    left: 99px;
+    font-size: 84.18px;
+    font-weight: 400;
+    line-height: 114px;
+    white-space: nowrap;
+    -webkit-text-stroke: 1.3px #082808;
+}
+.about-1{
+    position: absolute;
+    top: 10px;
+    left: 724px;
+    font-size: 22px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+.cloud{
+    position: absolute;
+    top: 229px;
+    left: 956px;
+    width: 652.17px;
+    
+}
+.bird{
+    position: absolute;
+    top: 441px;
+    left: 1195px;
+    width: 218px;
+}
+.boat{
+    position: absolute;
+    top: 970.24px;
+    left: 281px;
+    width: 598px;
+}
+.about-2{
+    position: absolute;
+    top: 593px;
+    left: 35px;
+    font-size: 22px;
+    line-height: 30px;
+    white-space: nowrap;
+}
+.box-u{
+    position: absolute;
+    top: 186px;
+    left: -847px;
+    width: 1074px;
+    height: 965px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.u{
+    font-size: 1193.2px;
+    line-height: 90%;
+    white-space: nowrap;
+    transform: rotate(90deg);
+}
+.box-y{
+    position: absolute;
+    top: 328.51px;
+    left: 818px;
+    width: 1074px;
+    height: 785px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.y{
+    font-size: 1193.2px;
+    line-height: 90%;
+    white-space: nowrap;
+    transform: rotate(-90deg);
+}
+.b-letter{
+    position: absolute;
+    top: 217.5px;
+    left: 281px;
+    font-size: 87.1px;
+    white-space: nowrap;
+}
+.b-text{
+    position: absolute;
+    top: 272px;
+    left: 353px;
+    font-size: 20.57px;
+    white-space: nowrap;
+}
+.b-line{
+    position: absolute;
+    top: 296px;
+    left: 261px;
+    width: 304px;
+    border-top: 1px solid #082808;
+}
+.v-letter{
+    position: absolute;
+    top:549px;
+    left: 727px;
+    font-size: 87.1px;
+    white-space: nowrap;
+}
+.v-text{
+    position: absolute;
+    top: 539px;
+    left: 548px;
+    font-size: 20.57px;
+    white-space: nowrap;
+}
+.v-line{
+    position: absolute;
+    top: 565.5px;
+    left: 514px;
+    width: 280.5px;
+    border-top: 1px solid #082808;
+}
+.wave-1{
+    position: absolute;
+    top: 1119.78px;
+    left: 234.2px;
+    width: 619px;
+    white-space: nowrap;
+}
+.wave-2{
+    position: absolute;
+    top: 1168px;
+    left: 825px;
+    width: 203px;
+    white-space: nowrap;
+}
+.wave-3{
+    position: absolute;
+    top: 1112.5px;
+    left: 813px;
+    width: 501px;
+    white-space: nowrap;
+}
+.details{
+    position: absolute;
+    top: 1377px;
+    left: 620px;
+    font-size: 30px;
+    white-space: nowrap;
+}
+.subtract{
+    position: absolute;
+    top: 969px;
+    left: 486px;
+    width: 120px;
+
+}
+.act-2{
+    position: absolute;
+    top: 1161px;
+    right: -17px;
+    font-size: 550px;
+    font-weight: 400;
+    line-height: 745px;
+    word-spacing: 0px;
+    white-space: nowrap;
+}
+
+.section-5{
+    position: relative;
+    height: 760px;
+    padding: 73px 49px 42px 45px;
+    background-color: #082808;
+}
+.place{
+    position: absolute;
+    top: 34px;
+    left: 45px;
+    font-size: 30px;
+    line-height: 41px;
+    color: #F5E1F4;
+}
+.row{
+    position: absolute;
+    top: 64px;
+    left: 20px;
+    font-size: 30px;
+    line-height: 1;
+    color: #F5E1F4;
+}
+.row-letter-d{
+    position: absolute;
+    top: 114px;
+    left: 20px;
+    font-size: 30px;
+    line-height: 1;
+    color: #F5E1F4;
+
+}
+.tiles{
+    display: grid;
+    grid-template-columns: repeat(6, 201px);
+    gap: 22px 28px;
+}
+.tile{
+    position: relative;
+    width: 201px;
+    height: 201px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.tile-dark{
+    background-color: #082808;
+    border: 2px solid #F5E1F4;
+    color: #F5E1F4;
+}
+.tile-light{
+    background-color: #F5E1F4;
+    color: #082808;
+}
+.outline{
+    color: transparent;
+    -webkit-text-stroke: 2px #F5E1F4;
+}
+.glyph-img{
+    width: 201px; 
+}
+.letter{
+    position: absolute;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.r1-p1{
+    left: 91.85px;
+    top: 75.62px;
+    font-size: 204.45px;
+    transform: translate(-42%, -50%) rotate(36.82deg);
+}
+.r1-p2{
+    left: 47.86px;
+    top: 42.12px;
+    font-size: 201.02px;
+    transform: translate(-2%, -14%) rotate(26deg);
+}
+.r1-p5{
+    left: 47.86px;
+    top: 42.14px;
+    font-size: 201.02px;
+    transform: translate(-2%, -14%) rotate(26deg);
+}
+.r3-p6{
+    left: 92.85px;
+    top: 75.62px;
+    font-size: 204.45px;
+    transform: translate(-42%, -50%) rotate(36.82deg);
+}
+.r3-p2{
+    left: 94px;
+    top: 115px;
+    font-size: 201.02px;
+    transform: translate(-45%, -50%) rotate(26deg);
+}
+.r3-p5{
+    left: 94px;
+    top: 115px;
+    font-size: 201.02px;
+    transform: translate(-45%, -50%) rotate(26deg);
+}
+.num{
+    position: absolute;
+    left: 68px;
+    top: 0px;
+    width: 60px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #082808;
+    border: 1px  solid #F5E1F4;
+    border-radius: 50%;
+    color: #F5E1F4;
+    font-size: 27px;
+    line-height: 1;
+    
+}
+.num-light{
+    position: absolute;
+    left: 70px;
+    top: 3px;
+    width: 60px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #082808;
+    border: 1px  solid #F5E1F4;
+    border-radius: 50%;
+    color: #F5E1F4;
+    font-size: 27px;
+    line-height: 1;
+}
+
+.section-6{
+    position: relative;
+    height: 1299px;
+    padding: 50px 44px 39px 30px;
+    background-color: #082808;
+}
+.rectangle-red{
+    position:absolute;
+    top: 50px;
+    left: 30px;
+    width: 656px;
+    height: 1208px;
+    background-color: #D43438;
+}
+.rectangle-pink{
+    position:absolute;
+    top: 50px;
+    left: 689px;
+    width: 704px;
+    height: 1208px;
+    background-color: #F5E1F4;
+}
+.glp-p{
+    position:absolute;
+    top: 68px;
+    left: 45px;
+    width: 202px;
+}
+.glp-r{
+    position:absolute;
+    top: 185px;
+    left: 218px;
+    width: 202px;
+}
+.glp-a{
+    position:absolute;
+    top: 383px;
+    left: 45px;
+    width: 202px;
+}
+.glp-t{
+    position:absolute;
+    top: 458px;
+    left: 193px;
+    width: 202px;
+}
+.glp-a-2{
+    position:absolute;
+    top: 642px;
+    left: 243px;
+    width: 202px;
+}
+.bird-2{
+    position:absolute;
+    top: 820px;
+    left: 96px;
+    width: 510px;
+    height: 459px;
+}
+.section-6 p{
+    position:absolute;
+    top: 128px;
+    left: 751px;
+    font-size: 27px;
+}
+.subtitle{
+    font-size: 29.56px;
+    font-weight: 400px;
+    line-height: 40px;
+}
+.comment{
+    font-size: 26.35px;
+    line-height: 36px;
+    font-weight: 400px;
+
+}.section-6 h2{
+    position: relative;
+    top: 1111px;
+    left: 288px;
+    font-size: 32px;
+    line-height: 43px;
+    font-weight: 400px;
+}
+
+.section-7{
+    position: relative;
+    height: 754px;
+    padding: 235px 30px 106px 30px;
+    background-color: #082808;
+}
+.epilogue-title{
+    position: absolute;
+    top: 23px;
+    left: 645px;
+    font-size: 30px;
+    font-weight: 400;
+    color: #F5E1F4;
+}
+.footer-card{
+    position: absolute;
+    top: 235px;
+    left: 30px;
+    width: 1380px;
+    height: 413px;
+    background-color: #D43438;
+    border-radius: 78px;
+    border: 1px solid #F5E1F4;
+}
+.footer-circle{
+    position: absolute;
+    top: 364px;
+    left: 135px;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background-color: #082808;
+}
+.footer-number{
+    position: absolute;
+    top: 327px;
+    left: 360px;
+    font-size: 257.48px;
+    color: #F5E1F4;
+    white-space: nowrap;
+}
+.footer-name{
+    position: absolute;
+    top: 280px;
+    left: 67px;
+    font-size: 42px;
+    color: #F5E1F4;
+}
+.footer-group{
+    position: absolute;
+    top: 584px;
+    left: 67px;
+    font-size: 42px;
+    color: #F5E1F4;
+}
+.footer-hse{
+    position: absolute;
+    top: 584px;
+    left: 1244px;
+    font-size: 42px;
+    color: #F5E1F4;
+}
+.masks{
+    position: absolute;
+    top: 205.34px;
+    left: 738.54px;
+    width: 577px;
+}
+.pangram{
+    position: absolute;
+    top: 77px;
+    left: 168px;
+    font-size: 32px;
+    line-height: 43px;
+    word-spacing: 8px;
+    color: #F5E1F4;
+    white-space: nowrap;
+}
+.strikethrough{
+    text-decoration-line: line-through;
+}
+.dots-small{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 11%;
+    text-underline-offset: 11%;
+}
+.dots-big{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-thickness: 15%;
+    text-underline-offset: 6.5%;
+}
+.wavy{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 6.5%;
+    text-underline-offset: 6.5%;
+}
+.underline-solid{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 7.5%;
+    text-underline-offset: 25%;
+}
+.pangram-stage{
+    position: absolute;
+    top: 80px;
+    left: 1052px;
+    font-size: 32px;
+    font-weight: 400px;
+    line-height: 43px;
+    color: #F5E1F4;
+}
