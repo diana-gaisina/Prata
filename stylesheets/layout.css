@@ -439,10 +439,7 @@ body{
     background-color: #F5E1F4;
     color: #082808;
 }
-.outline{
-    color: transparent;
-    -webkit-text-stroke: 2px #F5E1F4;
-}
+
 .glyph-img{
     width: 201px; 
 }
@@ -589,23 +586,15 @@ body{
 }
 .subtitle{
     font-size: 29.56px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 40px;
 }
 .comment{
     font-size: 26.35px;
     line-height: 36px;
-    font-weight: 400px;
+    font-weight: 400;
 
-}.section-6 h2{
-    position: relative;
-    top: 1111px;
-    left: 288px;
-    font-size: 32px;
-    line-height: 43px;
-    font-weight: 400px;
 }
-
 .section-7{
     position: relative;
     height: 754px;
@@ -716,7 +705,7 @@ body{
     top: 80px;
     left: 1052px;
     font-size: 32px;
-    font-weight: 400px;
+    font-weight: 400;
     line-height: 43px;
     color: #F5E1F4;
 }
